@@ -1,0 +1,230 @@
+PS D:\project\react_1\src> cd..
+PS D:\project\react_1> git init
+Initialized empty Git repository in D:/project/react_1/.git/eact_1/.git/
+PS D:\project\react_1> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+ll be committed)
+        .gitignore
+        README.md
+        package-lock.json
+        package.json
+        public/
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\project\react_1> add git.
+add : The term 'add' is not recognized as the 
+name of a cmdlet, function, script file, or     
+name, or if a path was included, verify that    
+the path is correct and try again.
+At line:1 char:1
++ add git.
++ ~~~
+   (add:String) [], CommandNotFoundException    
+    + FullyQualifiedErrorId : CommandNotFoundE  
+   xception
+ 
+PS D:\project\react_1> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS D:\project\react_1> git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF 
+will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', 
+LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/robots.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.test.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/reportWebVitals.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/setupTests.js', LF will be replaced by CRLF the next time Git touches it
+PS D:\project\react_1> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   README.md
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   public/favicon.ico
+        new file:   public/index.html
+        new file:   public/logo192.png
+        new file:   public/logo512.png
+        new file:   public/robots.txt
+        new file:   src/App.css
+        new file:   src/App.js
+        new file:   src/App.test.js
+        new file:   src/index.css
+        new file:   src/index.js
+        new file:   src/logo.svg
+        new file:   src/reportWebVitals.js
+        new file:   src/setupTests.js
+
+PS D:\project\react_1> git commit -m "Sample_1"
+Author identity unknown
+
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ESEC-CSE-CC6-24@DESKTOP-6C6UGPA.(none)')
+PS D:\project\react_1> git commit -m "Sample_1"
+Author identity unknown
+
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ESEC-CSE-CC6-24@DESKTOP-6C6UGPA.(none)')
+PS D:\project\react_1> git config --global user.email "venovenoth2004@gmail.com"     
+PS D:\project\react_1>  git config --global user.name "Vinoth_734"
+PS D:\project\react_1> git commit -m "Sample_1"
+[master (root-commit) e7784ba] Sample_1
+ 18 files changed, 20265 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.html
+ create mode 100644 public/logo192.png
+ create mode 100644 public/logo512.png
+ create mode 100644 src/App.css
+ create mode 100644 src/App.js
+ create mode 100644 src/index.css
+ create mode 100644 src/index.js
+ create mode 100644 src/logo.svg
+ create mode 100644 src/reportWebVitals.js
+ create mode 100644 src/setupTests.js
+PS D:\project\react_1> ^C
+PS D:\project\react_1> git remote add orgin https://github.com/Vinoth-734/React_1.git
+PS D:\project\react_1> git push -u orgin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Vinoth-734/React_1.git'
+PS D:\project\react_1> git push -u orgin master
+info: please complete authentication in your browser...
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (22/22), 182.71 KiB | 10.75 MiB/s, done.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/Vinoth-734/React_1/pull/new/master
+remote:
+To https://github.com/Vinoth-734/React_1.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'orgin/master'.
+PS D:\project\react_1> git push -u orgin master
+branch 'master' set up to track 'orgin/master'.
+Everything up-to-date
+PS D:\project\react_1> git status
+On branch master
+Your branch is up to date with 'orgin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/App.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        github.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\project\react_1> git commit -m "Sample_2"
+On branch master
+Your branch is up to date with 'orgin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/App.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        github.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\project\react_1> git commit -m "Sample_2"
+On branch master
+Your branch is up to date with 'orgin/master'.
+Changes not staged for commit:
+        modified:   src/App.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\project\react_1> git add src/App.js github.txt
+warning: in the working copy of 'src/App.js', LF will be replaced by CRLF the next time Git touches it
+PS D:\project\react_1> git add src/App.js github.txt
+[master 347ca49] Sample_2
+ 2 files changed, 15 insertions(+), 1 deletion(-)
+ create mode 100644 github.txt
+PS D:\project\react_1> git push origin master
+>>
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+PS D:\project\react_1> git remote -v
+orgin   https://github.com/Vinoth-734/React_1.git (fetch)
+orgin   https://github.com/Vinoth-734/React_1.git (push)
+PS D:\project\react_1> git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+PS D:\project\react_1> git remote add origin https://github.com/Vinoth-734/React_1.git
+PS D:\project\react_1> git remote add origin https://github.com/Vinoth-734/React_1.git
+PS D:\project\react_1> git remote add origin https://github.com/Vinoth-734/React_1.git
+PS D:\project\react_1> git remote add origin https://github.com/Vinoth-734/React_1.git
+PS D:\project\react_1> git remote add origin https://github.com/Vinoth-734/React_1.git
+PS D:\project\react_1> git remote add origin https://github.com/Vinoth-734/React_1.git
+PS D:\project\react_1> git remote add origin https://github.com/Vinoth-734/React_1.git
+PS D:\project\react_1> git remote add origin https://github.com/Vinoth-734/React_1.git
+PS D:\project\react_1> git remote add origin https://github.com/Vinoth-734/React_1.git
+PS D:\project\react_1> git remote add origin https://github.com/Vinoth-734/React_1.git
+PS D:\project\react_1> git remote add origin https://github.com/Vinoth-734/React_1.git
+PS D:\project\react_1> git remote add origin https://github.com/Vinoth-734/React_1.git
+PS D:\project\react_1> git remote add origin https://github.com/Vinoth-734/React_1.git
+PS D:\project\react_1> git push origin master
+Counting objects: 100% (8/8), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 615 bytes | 615.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/Vinoth-734/React_1.git
+   e7784ba..347ca49  master -> master
+PS D:\project\react_1> output.txt
+output.txt : The term 'output.txt' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of 
+the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ output.txt
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (output.txt:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS D:\project\react_1>
