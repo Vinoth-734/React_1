@@ -12,7 +12,11 @@ run :
 (from git -> code=> local=> http)
 >>git push -u orgin master
 
-
+after change:
+-------------
+>>git add cmdg.txt
+>>git commit -m "Sample_2"
+>>git push origin master 
 
 
 
