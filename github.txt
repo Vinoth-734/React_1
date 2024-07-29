@@ -1,0 +1,14 @@
+install git
+open vs code
+set terminal inside project app
+run :
+>>git init
+>>git  add .
+>>git status
+>> git config --global user.email "venovenoth2004@gmail.com"
+>>git config --global user.name "Vinoth_734"
+>>git commit -m "Sample_1"
+>>https://github.com/Vinoth-734/React_1.git
+(from git -> code=> local=> http)
+>>git push -u orgin master
+>>
